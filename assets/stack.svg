@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 320" role="img" aria-labelledby="title">
+  <title id="title">Full-stack AI architecture layers</title>
+  <rect width="1100" height="320" rx="18" fill="#07080d"/>
+  <rect x="1" y="1" width="1098" height="318" rx="17" fill="none" stroke="#1c2433"/>
+  <text x="28" y="36" font-family="'IBM Plex Mono', ui-monospace, Menlo, monospace" font-size="12" fill="#8b95a8">STACK TOPOLOGY · HOW THE WORK IS HELD</text>
+
+  <!-- layers -->
+  <g font-family="'IBM Plex Mono', ui-monospace, Menlo, monospace">
+    <g transform="translate(28,58)">
+      <rect width="1044" height="42" rx="10" fill="#12182a" stroke="#5ce1e6" stroke-opacity=".45"/>
+      <text x="18" y="27" font-size="13" fill="#5ce1e6">INTERFACE</text>
+      <text x="180" y="27" font-size="14" fill="#e8edf5">React · REST · command UIs · tracking dashboards</text>
+    </g>
+    <g transform="translate(28,110)">
+      <rect width="1044" height="42" rx="10" fill="#14101f" stroke="#a78bfa" stroke-opacity=".5"/>
+      <text x="18" y="27" font-size="13" fill="#a78bfa">AGENTS</text>
+      <text x="180" y="27" font-size="14" fill="#e8edf5">RAG · LoRA · Llama · Qdrant · DeepSeek Harness · citations</text>
+    </g>
+    <g transform="translate(28,162)">
+      <rect width="1044" height="42" rx="10" fill="#101816" stroke="#7ee2b8" stroke-opacity=".5"/>
+      <text x="18" y="27" font-size="13" fill="#7ee2b8">SERVICES</text>
+      <text x="180" y="27" font-size="14" fill="#e8edf5">Node.js · Java · Spring Boot · FastAPI · API Gateway · Lambda</text>
+    </g>
+    <g transform="translate(28,214)">
+      <rect width="1044" height="42" rx="10" fill="#18140e" stroke="#f5c16c" stroke-opacity=".5"/>
+      <text x="18" y="27" font-size="13" fill="#f5c16c">STREAMS</text>
+      <text x="180" y="27" font-size="14" fill="#e8edf5">Kinesis · Kafka · Spark · Iceberg · SQS · Step Functions</text>
+    </g>
+    <g transform="translate(28,266)">
+      <rect width="1044" height="42" rx="10" fill="#0e1118" stroke="#8b95a8" stroke-opacity=".45"/>
+      <text x="18" y="27" font-size="13" fill="#8b95a8">CLOUD</text>
+      <text x="180" y="27" font-size="14" fill="#e8edf5">AWS · S3 · DynamoDB · EMR Serverless · Docker · CI/CD</text>
+    </g>
+  </g>
+
+  <rect x="28" y="58" width="6" height="250" rx="3" fill="#5ce1e6" opacity=".35">
+    <animate attributeName="opacity" values=".2;.7;.2" dur="3s" repeatCount="indefinite"/>
+  </rect>
+</svg>
