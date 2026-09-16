@@ -1,73 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 280" role="img" aria-labelledby="title desc">
-  <title id="title">Ranjit Dontineni  Full-Stack AI Engineer</title>
-  <desc id="desc">Animated command-center banner for a full-stack AI engineer profile.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 280" role="img">
+  <title>Ranjit Dontineni - Full-Stack AI Engineer</title>
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#5ce1e6">
-        <animate attributeName="stop-color" values="#5ce1e6;#a78bfa;#5ce1e6" dur="8s" repeatCount="indefinite"/>
-      </stop>
+      <stop offset="0%" stop-color="#5ce1e6"/>
       <stop offset="55%" stop-color="#7ee2b8"/>
-      <stop offset="100%" stop-color="#a78bfa">
-        <animate attributeName="stop-color" values="#a78bfa;#f5c16c;#a78bfa" dur="8s" repeatCount="indefinite"/>
-      </stop>
-    </linearGradient>
-    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#5ce1e6" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#5ce1e6" stop-opacity=".18"/>
-      <stop offset="100%" stop-color="#5ce1e6" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
     </linearGradient>
     <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" fill="none" stroke="#1c2433" stroke-width=".6"/>
+      <path d="M28 0H0V28" fill="none" stroke="#1c2433" stroke-width="0.6"/>
     </pattern>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="b"/>
-      <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
-
   <rect width="1100" height="280" rx="22" fill="#07080d"/>
-  <rect width="1100" height="280" rx="22" fill="url(#grid)" opacity=".9"/>
-  <rect x="0" y="0" width="1100" height="46" fill="url(#scan)">
-    <animate attributeName="y" values="-46;280;-46" dur="7s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="1.2" y="1.2" width="1097.6" height="277.6" rx="21" fill="none" stroke="#1c2433"/>
-  <rect x="1.2" y="1.2" width="1097.6" height="277.6" rx="21" fill="none" stroke="url(#g)" stroke-opacity=".55"/>
-
-  <g font-family="'IBM Plex Mono', ui-monospace, Menlo, monospace" fill="#8b95a8" font-size="13">
-    <text x="36" y="38">RD // COMMAND CENTER</text>
-    <text x="860" y="38">ATL · GSU · AWS</text>
-    <circle cx="1070" cy="34" r="5" fill="#7ee2b8">
-      <animate attributeName="opacity" values="1;.25;1" dur="1.8s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <text x="36" y="118" font-family="'Syne', 'Outfit', ui-sans-serif, system-ui" font-size="52" font-weight="700" fill="#e8edf5">Ranjit Dontineni</text>
-  <text x="36" y="162" font-family="'IBM Plex Mono', ui-monospace, Menlo, monospace" font-size="20" fill="url(#g)" filter="url(#glow)">full-stack ai engineer · agents · streaming systems</text>
-
-  <g font-family="'IBM Plex Mono', ui-monospace, Menlo, monospace" font-size="13">
-    <rect x="36" y="196" width="168" height="34" rx="8" fill="#0e1118" stroke="#1c2433"/>
-    <text x="52" y="218" fill="#5ce1e6">AWS · Lambda</text>
-    <rect x="214" y="196" width="150" height="34" rx="8" fill="#0e1118" stroke="#1c2433"/>
-    <text x="230" y="218" fill="#a78bfa">RAG · LoRA</text>
-    <rect x="374" y="196" width="168" height="34" rx="8" fill="#0e1118" stroke="#1c2433"/>
-    <text x="390" y="218" fill="#7ee2b8">Spark · Kafka</text>
-    <rect x="552" y="196" width="150" height="34" rx="8" fill="#0e1118" stroke="#1c2433"/>
-    <text x="568" y="218" fill="#f5c16c">React · APIs</text>
-  </g>
-
+  <rect width="1100" height="280" rx="22" fill="url(#grid)" opacity="0.9"/>
+  <rect x="1.2" y="1.2" width="1097.6" height="277.6" rx="21" fill="none" stroke="url(#g)" stroke-opacity="0.55"/>
+  <text x="36" y="38" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13" fill="#8b95a8">RD // COMMAND CENTER</text>
+  <text x="860" y="38" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13" fill="#8b95a8">ATL | GSU | AWS</text>
+  <circle cx="1070" cy="34" r="5" fill="#7ee2b8"/>
+  <text x="36" y="118" font-family="ui-sans-serif, system-ui, Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#e8edf5">Ranjit Dontineni</text>
+  <text x="36" y="162" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="20" fill="#5ce1e6">full-stack ai engineer | agents | streaming systems</text>
+  <rect x="36" y="196" width="150" height="34" rx="8" fill="#0e1118" stroke="#1c2433"/>
+  <text x="52" y="218" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13" fill="#5ce1e6">AWS | Lambda</text>
+  <rect x="196" y="196" width="140" height="34" rx="8" fill="#0e1118" stroke="#1c2433"/>
+  <text x="212" y="218" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13" fill="#a78bfa">RAG | LoRA</text>
+  <rect x="346" y="196" width="160" height="34" rx="8" fill="#0e1118" stroke="#1c2433"/>
+  <text x="362" y="218" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13" fill="#7ee2b8">Spark | Kafka</text>
+  <rect x="516" y="196" width="150" height="34" rx="8" fill="#0e1118" stroke="#1c2433"/>
+  <text x="532" y="218" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13" fill="#f5c16c">React | APIs</text>
   <g transform="translate(860,78)" fill="none" stroke="url(#g)" stroke-width="1.4">
-    <circle cx="90" cy="70" r="62" opacity=".35"/>
-    <circle cx="90" cy="70" r="44" opacity=".55"/>
+    <circle cx="90" cy="70" r="62" opacity="0.35"/>
+    <circle cx="90" cy="70" r="44" opacity="0.55"/>
     <circle cx="90" cy="70" r="8" fill="#5ce1e6" stroke="none"/>
-    <g>
-      <circle cx="90" cy="8" r="4" fill="#a78bfa" stroke="none"/>
-      <circle cx="146" cy="102" r="4" fill="#7ee2b8" stroke="none"/>
-      <circle cx="34" cy="102" r="4" fill="#f5c16c" stroke="none"/>
-      <animateTransform attributeName="transform" type="rotate" from="0 90 70" to="360 90 70" dur="14s" repeatCount="indefinite"/>
-    </g>
-    <path d="M90 70 L90 8 M90 70 L146 102 M90 70 L34 102" opacity=".7"/>
+    <circle cx="90" cy="8" r="4" fill="#a78bfa" stroke="none"/>
+    <circle cx="146" cy="102" r="4" fill="#7ee2b8" stroke="none"/>
+    <circle cx="34" cy="102" r="4" fill="#f5c16c" stroke="none"/>
+    <path d="M90 70 L90 8 M90 70 L146 102 M90 70 L34 102" opacity="0.7"/>
   </g>
 </svg>
