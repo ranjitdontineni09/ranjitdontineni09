@@ -2,7 +2,7 @@
 
 Software engineer. Cloud services, streaming data, and agents.
 
-SDE Intern, Amazon Connect · SDE I, Aditya Birla Capital · MS CS, Georgia State · Atlanta, GA
+SDE Intern, Amazon Connect · GRA, Office of Academic Affairs, Georgia State · SDE I, Aditya Birla Capital · Atlanta, GA
 
 Open to full-time software engineering roles.
 
