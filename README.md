@@ -14,6 +14,7 @@ Open to full-time software engineering roles.
 | --- | --- |
 | [computer-use-runtime](https://github.com/ranjitdontineni09/computer-use-runtime) | Record a UI task with a model; replay it deterministically without one. |
 | [distributed-task-processing](https://github.com/ranjitdontineni09/distributed-task-processing) | Java / Spring Boot / Kafka workers with a tracking UI. `docker compose up`. |
+| [source-grounded-rag-agent](https://github.com/ranjitdontineni09/source-grounded-rag-agent) | FastAPI + React agent: Qdrant RAG, LoRA cite-or-refuse, empty retrieval refuses. |
 | [connect-stream](https://github.com/ranjitdontineni09/connect-stream) | Event bus, microbatches, partitioned tables. Personal reconstruction of a Connect-style pipeline. |
 | [grounded-qa-agent](https://github.com/ranjitdontineni09/grounded-qa-agent) | FastAPI Q&A that cites sources or refuses when retrieval is empty. |
 | [ranjit_fenixcommerce](https://github.com/ranjitdontineni09/ranjit_fenixcommerce) | Spring Boot logistics APIs: organizations, orders, API keys. |
